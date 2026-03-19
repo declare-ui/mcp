@@ -3,7 +3,7 @@
     <img width="1280" height="192" alt="DeclareUI" src="https://github.com/user-attachments/assets/44918531-3b1b-4ace-bca0-db0ea99f8bc8#gh-dark-mode-only" />
 </p>
 
-# @declareui/mcp
+# @declareuihq/mcp
 
 MCP (Model Context Protocol) server that lets AI agents create, modify, validate, and document DeclareUI components through natural language.
 
@@ -22,7 +22,7 @@ Add to your MCP client configuration:
   "mcpServers": {
     "declareui": {
       "command": "npx",
-      "args": ["-y", "@declareui/mcp"]
+      "args": ["-y", "@declareuihq/mcp"]
     }
   }
 }
@@ -36,7 +36,7 @@ Add to your MCP client configuration:
   "mcpServers": {
     "declareui": {
       "command": "npx",
-      "args": ["-y", "@declareui/mcp"]
+      "args": ["-y", "@declareuihq/mcp"]
     }
   }
 }
@@ -62,9 +62,9 @@ The agent generates valid `.ui.yaml`, validates it against the schema, and compi
 
 | Package | Description |
 |:--------|:------------|
-| [`@declareui/core`](https://github.com/declare-ui/core) | Parser, AST, and code generators |
-| [`@declareui/cli`](https://github.com/declare-ui/cli) | CLI tool |
-| [`@declareui/components`](https://github.com/declare-ui/components) | Pre-built component library |
+| [`@declareuihq/core`](https://github.com/declare-ui/core) | Parser, AST, and code generators |
+| [`@declareuihq/cli`](https://github.com/declare-ui/cli) | CLI tool |
+| [`@declareuihq/components`](https://github.com/declare-ui/components) | Pre-built component library |
 
 ## Contributing
 
